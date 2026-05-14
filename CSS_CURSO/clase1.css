@@ -1,0 +1,52 @@
+/* Llamar a un elemento por su ID*/
+#titulo-principal{
+    color: skyblue;
+    font-size: 30px;
+}
+
+/* Llamar a un elemento por su clase*/
+.subtitulo{
+    color: lightgreen;
+    font-size: 30px;
+}
+
+/* Llamar a un elemento por su etiqueta*/
+h2{
+    color: lightcoral;
+    font-size: 30px;
+}
+li{
+    color: #000000; /*Negro Hexadecimal*/
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: square;
+}
+.faltante{
+    color: red;
+    font-weight: bold;
+}
+.ingrediente{
+    color: green;
+}
+#Ingrediente-importante{
+    color: teal; 
+    font-weight: bold;
+}
+p{
+    color: white;
+    background-color: blueviolet;
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flexbox;
+    width: 300px;
+    height: 160px;
+    x: calc(50px + 100px);
+    y: calc(50px + 100px);
+    margin: auto;
+    padding: 5;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: solid;
+    overflow: visible;
+    border: 2px solid #000000;
+}
